@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style type="text/css">
+        body {
+            background-color: rgb(133, 128, 143);
+        }
+        table, th, td {
+          border:0.5px solid black;
+        }
+        </style>
+</head>
+<body>
+    <h1>4th Question</h1>
+    <center>
+        <table style="width:100%">
+            <tr>
+                <th>id</th>
+                <th>pwd</th>
+                <th>code</th>
+            </tr>
+        </center>
+    </center>
+            <tr>
+                {% for i in m %}
+                <td>{{i[0]}}</td>
+                <td>{{i[1]}}</td>
+                <td>{{i[1]}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </center>
+
+
+</body>
+</html>
